@@ -18,6 +18,9 @@ export default function Header() {
   return (
     <div className="header-container">
         <FaHome className="nav-link" onClick={() => navigate("/")} />
+        {
+          user && <Link to="/addArticle" className="auth-link">Add Article</Link>
+        }
         <div className="categories-container">
           {
             categories.map((item, index) => <Link to={`/category/${item}`} className="nav-link" key={index}>

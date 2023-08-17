@@ -36,7 +36,7 @@ export default function CategoryArticle() {
   return (
     <div className="category-articles">
       {articles.map((item, index) =>
-        <ArticleCard article={item} key={item[index]} />
+        <ArticleCard article={item} key={index} />
       )}
     </div>
   )

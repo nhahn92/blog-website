@@ -8,7 +8,10 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 // For Authentication storage
-import { getAuth } from 'firebase/auth';
+import { getAuth } from "firebase/auth";
+
+// For Storage
+import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -32,3 +35,6 @@ export const db = getFirestore(app);
 
 // Set up auth and export it
 export const auth = getAuth(app);
+
+// Set up storage and export it
+export const storage = getStorage(app);
