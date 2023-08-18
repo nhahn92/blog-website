@@ -17,7 +17,11 @@ export default function Header() {
 
   return (
     <div className="header-container">
-        <FaHome className="nav-link" onClick={() => navigate("/")} />
+        <FaHome
+          className="nav-link"
+          onClick={() => navigate("/")}
+          style={{cursor: "pointer"}}
+        />
         {
           user && <Link to="/addArticle" className="auth-link">Add Article</Link>
         }
