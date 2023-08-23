@@ -8,7 +8,7 @@ export default function ArticleCard({article}) {
         <img src={article?.imageURL} alt={article?.title} />
         <div className="article-card-info">
           <p>{article?.title}</p>
-          <Link to="#">Read</Link>
+          <Link to={`/article/${article?.id}`}>Read</Link>
         </div>
     </div>
   )
