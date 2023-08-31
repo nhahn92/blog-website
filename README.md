@@ -23,4 +23,4 @@ This is a blog website mockup with back-end capabilities using Firebase. It allo
 
 ## Relevant Links
 
-- [Live Website - Netlify](nicole-blog-website.netlify.app)
+- [Live Website - Netlify](https://nicole-blog-website.netlify.app/)
